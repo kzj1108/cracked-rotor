@@ -1,0 +1,18 @@
+========================================
+  Python 一键运行
+========================================
+
+双击:  run_all.bat
+
+或命令行:
+
+  cd C:\Users\86159\.cursor\projects\empty-window\cracked_rotor_render
+  pip install -r requirements.txt
+  python main.py --out output
+
+图片在 output\ 文件夹。
+
+快速测试（网格较粗）:
+  python main.py --out output --quick
+
+========================================

@@ -1,0 +1,13 @@
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: cracked-rotor-figures
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: OUTPUT_DIR
+        value: /app/output
+      - key: PORT
+        value: "10000"
+    autoDeploy: true
